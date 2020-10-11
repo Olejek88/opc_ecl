@@ -6,11 +6,11 @@
 Боевая конфигурация сервера лежит в директории %SYSTEMROOT %/SYSTEM32/ecl.xml.
 
 Конфигурационный файл представляет из себя стандартный xml файл с следующей иерархией тегов.
-
-- <eclOpcCfg version="1.0" description="ECL OPC configuration">
-- <comports>
-- <comport baudrate="38400" addr="2" description="отсутствует" com="1">
-- <comfort addr="2" description="отсутствует" name="TP1">
+```
+<eclOpcCfg version="1.0" description="ECL OPC configuration">
+<comports>
+<comport baudrate="38400" addr="2" description="отсутствует" com="1">
+<comfort addr="2" description="отсутствует" name="TP1">
   <tag description="Режим контура - отопление контроллера" type="0" name="Controller mode.Cir 1 mode" /> 
   <tag description="Режим контура - ГВС контроллера" type="0" name="Controller mode.Cir 2 mode" /> 
   <tag description="Состояние контура - отопление контроллера" type="0" name="Controller mode.Cir 1 status" /> 
@@ -23,8 +23,8 @@
   <tag description="Задание комнатной температуры - пониженная" type="0" name="Circuit 1 primary par._181 Night setpt" /> 
   </comfort>
   </comport>
-- <comport baudrate="38400" addr="2" description="отсутствует" com="2">
-- <comfort addr="2" description="отсутствует" name="TP2">
+<comport baudrate="38400" addr="2" description="отсутствует" com="2">
+<comfort addr="2" description="отсутствует" name="TP2">
   <tag description="Режим контура - отопление контроллера" type="0" name="Controller mode.Cir 1 mode" /> 
   <tag description="Режим контура - ГВС контроллера" type="0" name="Controller mode.Cir 2 mode" /> 
   <tag description="Состояние контура - отопление контроллера" type="0" name="Controller mode.Cir 1 status" /> 
@@ -39,7 +39,7 @@
   </comport>
   </comports>
   </eclOpcCfg>
-
+```
 Для физуального конфигурирования сервера используется графический интерфейс. 
 Для добавления в систему нового контроллера выбираете соответствующий пункт меню, либо нажимаете кнопку <Добавить устройство>. Иерархически связанный com-порт добавиться автоматически. 
 Выбираете в дереве объектов коммуникационный порт и изменяете его название, номер, скорость и режим работы.
