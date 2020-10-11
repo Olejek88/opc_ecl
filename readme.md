@@ -7,8 +7,6 @@
 
 Конфигурационный файл представляет из себя стандартный xml файл с следующей иерархией тегов.
 
-<?xml version="1.0" encoding="UTF-8" ?> 
-<!-- DOCTYPE eclOpcCfg  --> 
 - <eclOpcCfg version="1.0" description="ECL OPC configuration">
 - <comports>
 - <comport baudrate="38400" addr="2" description="отсутствует" com="1">
